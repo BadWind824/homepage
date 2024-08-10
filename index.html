@@ -16,6 +16,7 @@
 	<script src="./static/js/Right.js"></script>
 </head>
 <meta charset="utf-8">
+<script type="text/javascript" src="https://api.zxki.cn/api/yhpl"></script>
 <body>
 	 <!-- loading加载--> 
 	 <div id="spinner-container">
@@ -134,7 +135,17 @@
 				</ul>
 			</div>
 			<!-- 60秒读懂世界结束-->
-			
+			<!-- 摸鱼日历-->
+			<div class="left-div left-time">
+				<ul id="line2">
+				 <li>
+				<div class="container">
+					<img id="moyuImage" src="loading.gif" alt="摸鱼日历图片">
+				</div>
+			</li>
+		</ul>
+	</div>
+	<!-- 摸鱼日历结束-->
 			
 	
 		</div>
@@ -411,7 +422,7 @@
     // 当文档加载完毕时执行
     document.addEventListener('DOMContentLoaded', function() {
         // 获取摸鱼日历API的URL
-        var apiURL = 'https://api.vvhan.com/api/moyu?type=json';
+		var apiURL = 'https://api.zxki.cn/api/myrl'; 
 
         // 使用fetch API请求摸鱼日历API
         fetch(apiURL)
