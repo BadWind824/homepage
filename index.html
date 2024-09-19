@@ -1,9 +1,10 @@
 <!DOCTYPE html>
+
 <head class="badwind824.top>
-	
+	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>
-		一只南风的主页 </title>
+		一只南风主页 </title>
 	<link rel="icon" href="./static/pic/tx.jpg">
 	<meta name="description" content="这是来自南风的个人主页，通过本页可获取所有关联的站点服务.">
 	<meta name="keywords" content="南风主页,个人主页,homepage,南风引导页">
@@ -15,8 +16,7 @@
 	<link rel="stylesheet" type="text/css" href="./static/css/loading.css"> 
 	<script src="./static/js/Right.js"></script>
 </head>
-<meta charset="utf-8">
-<script type="text/javascript" src="https://api.zxki.cn/api/yhpl"></script>
+
 <body>
 	 <!-- loading加载--> 
 	 <div id="spinner-container">
@@ -27,7 +27,7 @@
 		<div class="menu">
 			<ul class="menu-list01">
 				<li class="menu-item">
-					<a href="#" target="_self" style="color: white; text-decoration: none;">
+					<a href="/" target="_self" style="color: white; text-decoration: none;">
 						<svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
 							<path d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"/>
 						</svg>
@@ -68,6 +68,7 @@
 		 <!-- 在手机尺寸下显示的导航按钮 -->
 		 <div class="mobile-nav-button">
 			<i class="fa-solid fa-list"></i>
+			<div >展开</div>
 			</div>  
 	  <!--侧边-->
 	<div class="noise-filter"></div>
@@ -142,6 +143,7 @@
 	
 		<div class="noise-right">
 			<header>
+			
 				<!-- 手机页面头部logo -->		
 				<div class="index-logo" style="background-image: url(./static/pic/tx.jpg);">
 				</div>
@@ -379,7 +381,7 @@
     // 当文档加载完毕时执行
     document.addEventListener('DOMContentLoaded', function() {
         // 获取摸鱼日历API的URL
-		var apiURL = 'https://api.zxki.cn/api/myrl'; 
+        var apiURL = 'https://api.vvhan.com/api/moyu?type=json';
 
         // 使用fetch API请求摸鱼日历API
         fetch(apiURL)

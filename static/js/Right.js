@@ -85,7 +85,7 @@ let isFullScreen = false;
         };
 
         var image = document.createElement("img");
-        image.src = "https://jsd.cdn.zzko.cn/gh/rcy1314/tuchuang@main/uPic/weixin.png";
+        image.src = "https://badwind824.top";
         image.style.position = "absolute";
         image.style.top = "50%";
         image.style.left = "50%";
